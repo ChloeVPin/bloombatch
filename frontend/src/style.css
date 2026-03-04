@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #e8a0b8;
+  --color-accent-hover: #d88aa6;
+  --color-accent-soft: #f5dce6;
+  --color-accent-subtle: #faf2f5;
+  --color-surface: #ffffff;
+  --color-surface-raised: #fafafa;
+  --color-surface-hover: #f7f7f7;
+  --color-border: #ebebeb;
+  --color-border-light: #f2f2f2;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #6b6b6b;
+  --color-text-tertiary: #a0a0a0;
+  --color-text-accent: #c4748e;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  background: #ffffff;
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+/* Wails drag-and-drop active state */
+.wails-drop-target-active {
+  border-color: var(--color-accent) !important;
+  background-color: var(--color-accent-subtle) !important;
+}
+
