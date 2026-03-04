@@ -1,0 +1,67 @@
+name: Bug report
+description: Report a reproducible problem in bloombatch
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please share enough detail so we can reproduce and fix it quickly.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One sentence describing the issue
+      placeholder: Renaming fails when files include emoji characters
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List exact steps in order
+      placeholder: |
+        1. Open bloombatch
+        2. Add files named ...
+        3. Apply Prefix rule with ...
+        4. Click Rename Files
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: Files should be renamed without errors
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: App shows an error and no files are renamed
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Version from the release you are using
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 23H2
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or logs
+      description: Paste error text or drag screenshots here
+      placeholder: Optional, but very helpful
+    validations:
+      required: false

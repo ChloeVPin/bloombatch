@@ -85,4 +85,4 @@ bloombatch/
 
 ## License
 
-Proprietary software. All rights reserved.
+[MIT](LICENSE)
