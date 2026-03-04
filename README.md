@@ -7,6 +7,8 @@
 
   ![platform](https://img.shields.io/badge/platform-Windows-4A86CF?style=flat-square)
   ![stack](https://img.shields.io/badge/stack-Wails%20%2B%20Go%20%2B%20React-EAB9C9?style=flat-square)
+
+  [Website](https://bloombatch.vercel.app/) • [Releases](https://github.com/ChloeVPin/bloombatch/releases) • [Issues](https://github.com/ChloeVPin/bloombatch/issues)
 </div>
 
 ## Why bloombatch
