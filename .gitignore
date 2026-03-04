@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 build/bin
 node_modules
 frontend/dist
+=======
+# OS generated files
+.DS_Store
+Thumbs.db
+>>>>>>> 22adc249c83ac92919b11937b4a55db3bce183c9
