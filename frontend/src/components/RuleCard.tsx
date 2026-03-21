@@ -39,54 +39,29 @@ export default function RuleCard({ rule, onUpdate, onRemove }: RuleCardProps) {
       <div className="flex items-center justify-between mb-2.5">
         <div className="flex items-center gap-1.5 text-text-accent">
           {icons[rule.type]}
-          <span className="text-[11px] font-semibold uppercase tracking-wider">
-            {labels[rule.type]}
-          </span>
+          <span className="text-[11px] font-semibold uppercase tracking-wider">{labels[rule.type]}</span>
         </div>
         <button
           onClick={onRemove}
           className="p-0.5 rounded hover:bg-surface-hover transition-colors cursor-pointer"
+          aria-label="Remove rule"
         >
           <X className="w-3.5 h-3.5 text-text-tertiary hover:text-text-secondary" />
         </button>
       </div>
 
       {rule.type === 'prefix' && (
-        <input
-          type="text"
-          placeholder="Text to add before filename..."
-          value={rule.prefix}
-          onChange={(e) => onUpdate({ prefix: e.target.value })}
-          className={inputClass}
-        />
+        <input type="text" placeholder="Text to add before filename..." aria-label="Prefix text" value={rule.prefix} onChange={(e) => onUpdate({ prefix: e.target.value })} className={inputClass} />
       )}
 
       {rule.type === 'suffix' && (
-        <input
-          type="text"
-          placeholder="Text to add after filename..."
-          value={rule.suffix}
-          onChange={(e) => onUpdate({ suffix: e.target.value })}
-          className={inputClass}
-        />
+        <input type="text" placeholder="Text to add after filename..." aria-label="Suffix text" value={rule.suffix} onChange={(e) => onUpdate({ suffix: e.target.value })} className={inputClass} />
       )}
 
       {rule.type === 'replace' && (
         <div className="space-y-2">
-          <input
-            type="text"
-            placeholder="Find..."
-            value={rule.searchText}
-            onChange={(e) => onUpdate({ searchText: e.target.value })}
-            className={inputClass}
-          />
-          <input
-            type="text"
-            placeholder="Replace with..."
-            value={rule.replaceText}
-            onChange={(e) => onUpdate({ replaceText: e.target.value })}
-            className={inputClass}
-          />
+          <input type="text" placeholder="Find..." aria-label="Search text" value={rule.searchText} onChange={(e) => onUpdate({ searchText: e.target.value })} className={inputClass} />
+          <input type="text" placeholder="Replace with..." aria-label="Replace text" value={rule.replaceText} onChange={(e) => onUpdate({ replaceText: e.target.value })} className={inputClass} />
         </div>
       )}
 
@@ -94,24 +69,11 @@ export default function RuleCard({ rule, onUpdate, onRemove }: RuleCardProps) {
         <div className="flex gap-2">
           <div className="flex-1">
             <label className="text-[10px] font-medium text-text-tertiary mb-1 block uppercase tracking-wider">Start</label>
-            <input
-              type="number"
-              min={0}
-              value={rule.startNum}
-              onChange={(e) => onUpdate({ startNum: parseInt(e.target.value) || 0 })}
-              className={inputClass}
-            />
+            <input type="number" min={0} aria-label="Starting number" value={rule.startNum} onChange={(e) => onUpdate({ startNum: parseInt(e.target.value, 10) || 0 })} className={inputClass} />
           </div>
           <div className="flex-1">
             <label className="text-[10px] font-medium text-text-tertiary mb-1 block uppercase tracking-wider">Digits</label>
-            <input
-              type="number"
-              min={1}
-              max={10}
-              value={rule.padding}
-              onChange={(e) => onUpdate({ padding: parseInt(e.target.value) || 3 })}
-              className={inputClass}
-            />
+            <input type="number" min={1} max={10} aria-label="Number of digits (padding)" value={rule.padding} onChange={(e) => onUpdate({ padding: parseInt(e.target.value, 10) || 3 })} className={inputClass} />
           </div>
         </div>
       )}

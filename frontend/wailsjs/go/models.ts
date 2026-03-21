@@ -26,6 +26,7 @@ export namespace main {
 	    fullPath: string;
 	    dir: string;
 	    hasConflict: boolean;
+	    conflictNote: string;
 	
 	    static createFrom(source: any = {}) {
 	        return new PreviewResult(source);
@@ -38,6 +39,7 @@ export namespace main {
 	        this.fullPath = source["fullPath"];
 	        this.dir = source["dir"];
 	        this.hasConflict = source["hasConflict"];
+	        this.conflictNote = source["conflictNote"];
 	    }
 	}
 	export class RenameResult {

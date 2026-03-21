@@ -13,7 +13,7 @@ export interface RuleConfig {
   replaceText: string;
   startNum: number;
   padding: number;
-  caseMode: string;
+  caseMode: 'lower' | 'upper';
 }
 
 export function newRule(type: RuleType): RuleConfig {

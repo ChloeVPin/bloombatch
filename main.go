@@ -2,6 +2,7 @@ package main
 
 import (
 	"embed"
+	"os"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -13,6 +14,14 @@ import (
 var assets embed.FS
 
 func main() {
+	if len(os.Args) > 1 && os.Args[1] == "cli" {
+		exitCode := runCLI(os.Args[2:], os.Stdout, os.Stderr)
+		if exitCode != 0 {
+			os.Exit(exitCode)
+		}
+		return
+	}
+
 	app := NewApp()
 
 	err := wails.Run(&options.App{
@@ -35,7 +44,7 @@ func main() {
 			WindowIsTranslucent:  false,
 			Theme:                windows.Light,
 		},
-		Frameless: false,
+		Frameless: true,
 		DragAndDrop: &options.DragAndDrop{
 			EnableFileDrop:     true,
 			DisableWebViewDrop: true,
