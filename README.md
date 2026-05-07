@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/bloom-mark.svg" alt="BloomBatch" width="88" />
+  <img src="public/logo.avif" alt="BloomBatch" width="88" />
 </p>
 <h1 align="center">BloomBatch</h1>
 <p align="center">Batch rename files locally with live preview, partial-success reporting, and a frameless desktop shell.</p>
