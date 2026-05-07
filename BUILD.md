@@ -95,9 +95,19 @@ Tauri packages the frontend export with the Rust backend and writes bundles to:
 `src-tauri/target/release/bundle/`
 
 Expected outputs include:
-- Windows: `.msi` and `.exe`
+- Windows: `.msi`
 - macOS: `.dmg` and `.app`
 - Linux: `.AppImage`, `.deb`, and `.rpm`
+
+To build only the MSI on Windows:
+```bash
+npm run tauri:build -- --bundles msi
+```
+
+To build for x64 specifically:
+```bash
+npm run tauri:build -- --bundles msi --target x86_64-pc-windows-msvc
+```
 
 ## Rust checks
 ```bash

@@ -88,7 +88,7 @@ npm run tauri:build
 `npm run build` creates the static frontend export in `out/`. `npm run tauri:build` packages that export with the Rust backend into native installers and app bundles for the current platform.
 
 ### Platform output
-- Windows: `.msi` and `.exe`
+- Windows: `.msi`
 - macOS: `.dmg` and `.app`
 - Linux: `.AppImage`, `.deb`, and `.rpm`
 
