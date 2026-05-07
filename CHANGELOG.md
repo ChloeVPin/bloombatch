@@ -7,17 +7,22 @@ This project follows semantic versioning.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-05-07
+
 ### Changed
-- 2026-05-07: rewrote the public documentation set to match the current Tauri + Next.js app instead of stale release copy.
-- 2026-05-07: added static README visuals under `public/screenshots/` so the repository has real preview assets.
-- 2026-05-07: removed build-time remote font fetching from the Next.js layout.
-- 2026-05-07: removed the production analytics hook from the desktop shell so the app stays local-first.
-- 2026-05-07: removed the `ignoreBuildErrors` escape hatch from the Next config.
-- 2026-05-07: enabled Next.js worker threads so production builds complete cleanly on this checkout.
+- Rewrote the public documentation set to match the current Tauri + Next.js app.
+- Replaced placeholder SVG screenshots in the README with real app screenshots.
+- Replaced Vercel/v0 placeholder icons with the real BloomBatch logo and icon set.
+- Removed build-time remote font fetching from the Next.js layout.
+- Removed the production analytics hook from the desktop shell so the app stays local-first.
+- Removed the `ignoreBuildErrors` escape hatch from the Next config.
+- Enabled Next.js worker threads so production builds complete cleanly.
+- Bumped version to 1.2.0 across `package.json`, `tauri.conf.json`, and `Cargo.toml`.
 
 ### Added
-- 2026-05-07: added `docs/architecture.md` to explain how the app is structured.
-- 2026-05-07: added `CODE_OF_CONDUCT.md` so the contribution flow has a real policy target.
+- Added `docs/architecture.md` to explain how the app is structured.
+- Added `CODE_OF_CONDUCT.md` so the contribution flow has a real policy target.
+- Added full Tauri icon set generated from the BloomBatch logo.
 
 ## [0.1.0] - 2026-05-07
 
@@ -35,5 +40,6 @@ This project follows semantic versioning.
 - Cross-platform Tauri packaging for Windows, macOS, and Linux.
 - MIT licensing and the initial open-source documentation set.
 
-[Unreleased]: https://github.com/chloevalesquez/bloombatch/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/chloevalesquez/bloombatch/releases/tag/v0.1.0
+[Unreleased]: https://github.com/ChloeVPin/bloombatch/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/ChloeVPin/bloombatch/compare/v0.1.0...v1.2.0
+[0.1.0]: https://github.com/ChloeVPin/bloombatch/releases/tag/v0.1.0
