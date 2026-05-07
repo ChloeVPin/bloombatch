@@ -1,0 +1,56 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" rx="56" fill="#F7F6F2"/>
+  <rect x="96" y="88" width="1408" height="824" rx="40" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="136" y="154" fill="#1F1F1C" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="600">Rename rules</text>
+  <text x="136" y="188" fill="#7B756E" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Find and replace, prefix and suffix, numbering, and case transforms</text>
+
+  <rect x="136" y="232" width="620" height="112" rx="28" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <text x="168" y="276" fill="#7B756E" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Find</text>
+  <rect x="168" y="292" width="246" height="34" rx="12" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="184" y="314" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">report</text>
+  <text x="448" y="276" fill="#7B756E" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Replace</text>
+  <rect x="448" y="292" width="276" height="34" rx="12" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="464" y="314" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">summary</text>
+
+  <rect x="136" y="368" width="620" height="132" rx="28" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <text x="168" y="412" fill="#7B756E" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Sequence</text>
+  <rect x="168" y="428" width="132" height="34" rx="12" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="184" y="450" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">01</text>
+  <rect x="316" y="428" width="132" height="34" rx="12" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="344" y="450" fill="#1F1F1C" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">_</text>
+  <rect x="464" y="428" width="260" height="34" rx="12" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="480" y="450" fill="#1F1F1C" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">Before name</text>
+
+  <rect x="136" y="536" width="620" height="316" rx="28" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <text x="168" y="582" fill="#1F1F1C" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="600">Preview list</text>
+  <rect x="168" y="622" width="556" height="52" rx="16" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <text x="188" y="654" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">report-jan.txt</text>
+  <text x="520" y="654" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">summary-01.txt</text>
+  <circle cx="694" cy="648" r="6" fill="#D48A8A"/>
+
+  <rect x="168" y="686" width="556" height="52" rx="16" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <text x="188" y="718" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">report-feb.txt</text>
+  <text x="520" y="718" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">summary-02.txt</text>
+  <circle cx="694" cy="712" r="6" fill="#A6A096"/>
+
+  <rect x="168" y="750" width="556" height="52" rx="16" fill="#FFF8F8" stroke="#E9C8C8"/>
+  <text x="188" y="782" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">report-mar.txt</text>
+  <text x="520" y="782" fill="#A84E4E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">summary-03.txt</text>
+  <circle cx="694" cy="776" r="6" fill="#D48A8A"/>
+
+  <rect x="796" y="232" width="640" height="620" rx="32" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <text x="828" y="282" fill="#1F1F1C" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="600">Side-by-side preview</text>
+  <rect x="828" y="326" width="576" height="404" rx="26" fill="#FFFFFF" stroke="#E6E2DA"/>
+  <rect x="860" y="362" width="512" height="72" rx="18" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <rect x="860" y="452" width="512" height="72" rx="18" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <rect x="860" y="542" width="512" height="72" rx="18" fill="#FBFAF7" stroke="#E6E2DA"/>
+  <rect x="860" y="632" width="512" height="72" rx="18" fill="#FFF8F8" stroke="#E9C8C8"/>
+  <text x="886" y="406" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">draft-notes.txt</text>
+  <text x="886" y="496" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">invoice-final.pdf</text>
+  <text x="886" y="586" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">image-0001.png</text>
+  <text x="886" y="676" fill="#7B756E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">notes.txt</text>
+  <text x="1180" y="406" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">draft-notes_01.txt</text>
+  <text x="1180" y="496" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">invoice-final_02.pdf</text>
+  <text x="1180" y="586" fill="#1F1F1C" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">image-0001_03.png</text>
+  <text x="1180" y="676" fill="#A84E4E" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Consolas, monospace" font-size="14">notes_04.txt</text>
+</svg>
