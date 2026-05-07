@@ -38,11 +38,10 @@ The app is intentionally narrow:
 - Use the frameless desktop shell with native minimize, maximize, and close controls.
 
 ## Screenshots
-These are illustrative assets checked into the repository for the README.
 
 | Overview | Preview | Success |
 |---|---|---|
-| ![BloomBatch overview](public/screenshots/overview.svg) | ![BloomBatch preview list](public/screenshots/preview.svg) | ![BloomBatch success state](public/screenshots/success.svg) |
+| ![BloomBatch overview](public/screenshots/overview.png) | ![BloomBatch preview list](public/screenshots/preview.png) | ![BloomBatch success state](public/screenshots/success.png) |
 
 ## Quick Start
 ```bash
