@@ -1,11 +1,15 @@
-# BloomBatch
-Batch rename files locally with live preview, partial-success reporting, and a frameless desktop shell.
-
-[![Tauri](https://img.shields.io/badge/Tauri-2.0-24C8DB?style=flat-square)](https://tauri.app)
-[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square)](https://www.typescriptlang.org)
-[![Rust](https://img.shields.io/badge/Rust-2021-CE422B?style=flat-square)](https://www.rust-lang.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-666?style=flat-square)](LICENSE)
+<p align="center">
+  <img src="public/icon.svg" alt="BloomBatch" width="88" />
+</p>
+<h1 align="center">BloomBatch</h1>
+<p align="center">Batch rename files locally with live preview, partial-success reporting, and a frameless desktop shell.</p>
+<p align="center">
+  <a href="https://tauri.app"><img src="https://img.shields.io/badge/Tauri-2.0-24C8DB?style=flat-square" alt="Tauri" /></a>
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-16-000000?style=flat-square" alt="Next.js" /></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square" alt="TypeScript" /></a>
+  <a href="https://www.rust-lang.org"><img src="https://img.shields.io/badge/Rust-2021-CE422B?style=flat-square" alt="Rust" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-666?style=flat-square" alt="License: MIT" /></a>
+</p>
 
 ## Table of Contents
 - [What it does](#what-it-does)
