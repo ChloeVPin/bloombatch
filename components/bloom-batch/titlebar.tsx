@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { Minus, Square, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { closeWindow, isTauri, minimizeWindow, toggleMaximizeWindow } from "@/lib/tauri-bridge"
+import { BloomMark } from "@/components/bloom-batch/bloom-mark"
 
 export function TitleBar() {
   const [inTauri, setInTauri] = useState(false)
@@ -19,7 +20,7 @@ export function TitleBar() {
     >
       {/* Logo — sits inside drag region; not interactive so no conflict */}
       <div className="flex items-center gap-2 text-foreground/85 pointer-events-none">
-        <img src="/icon.ico" className="size-5 rounded-[4px]" alt="" aria-hidden />
+        <BloomMark className="size-5" aria-hidden />
         <span className="text-[13px] font-medium tracking-tight">BloomBatch</span>
       </div>
 
